@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revendedora Larissa Oliveira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fdeef0;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            color: #d81b60;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        header p {
+            color: #555;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin: 0 15px 15px;
+        }
+
+        .card a {
+            display: block;
+            margin: 10px 20px 20px;
+            padding: 12px 0;
+            background-color: #d81b60;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #ad1457;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Revendedora Larissa Oliveira</h1>
+        <p>Perfumes, cremes e cosméticos com entrega rápida e segura</p>
+    </header>
+
+    <div class="container">
+        <!-- Boticário -->
+        <div class="card">
+            <img src="boticario.jpg" alt="Boticário">
+            <h2>Boticário</h2>
+            <p>Perfumes e cosméticos de qualidade para você se sentir incrível.</p>
+            <a href="https://minhaloja.boticario.com.br/loja-larissasantosdeoliveira-768654" target="_blank">Comprar</a>
+        </div>
+
+        <!-- Eudora -->
+        <div class="card">
+            <img src="eudora.jpg" alt="Eudora">
+            <h2>Eudora</h2>
+            <p>Produtos de beleza, maquiagem e cuidados pessoais.</p>
+            <a href="https://minhaloja.eudora.com.br/loja-larissasantosdeoliveira-768654" target="_blank">Comprar</a>
+        </div>
+
+        <!-- Quem Disse, Berenice? -->
+        <div class="card">
+            <img src="quem disse berenice.jpg" alt="Quem Disse Berenice">
+            <h2>Quem Disse, Berenice?</h2>
+            <p>Maquiagem divertida e produtos de beleza para todos os estilos.</p>
+            <a href="https://minhaloja.quemdisseberenice.com.br/loja-larissasantosdeoliveira-768654" target="_blank">Comprar</a>
+        </div>
+
+        <!-- OUI Paris -->
+        <div class="card">
+            <img src="ouiparis.jpg" alt="OUI Paris">
+            <h2>OUI Paris</h2>
+            <p>Perfumes e cosméticos premium para quem busca sofisticação.</p>
+            <a href="https://minhaloja.ouiparis.com/loja-larissasantosdeoliveira-768654" target="_blank">Comprar</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Revendedora Larissa Ol
